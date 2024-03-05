@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>www.FoodTime.com</title>
+    <link rel="stylesheet" href="FoodTime.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <div class="sidebar">
+
+      <!--logo-->
+
+      <h1 class="logo">FoodTime</h1>
+
+      <!--sidebar lists-->
+      <div class="sidebar-menus">
+        <a href="#"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+        <a href="#"><ion-icon name="receipt-outline"></ion-icon>Bills</a>
+        <a href="#"><ion-icon name="wallet-outline"></ion-icon>Wallet</a>
+        <a href="#"><ion-icon name="notifications-outline"></ion-icon>Notification</a>
+        <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>Contact Us</a>
+        <a href="#"><ion-icon name="settings-outline"></ion-icon>Setting</a>
+
+      </div>
+      <!--logout footer-->
+
+      <div class="sidebar-logout">
+
+        <a href="#"><ion-icon name="log-out-outline"></ion-icon>logout</a>
+
+      </div>
+
+    </div>
+    <!--main-->
+
+    <div class="main">
+      <!--main-navbar-->
+      <div class="main-navbar">
+        <!--menu when appear on the mobile verson-->
+        <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+      
+      <!--search-bar-->
+      <div class="search">
+        <input type="text" placeholder="What do you want to eat?">
+        <button class="search-btn">Search</button>
+
+      </div>
+      <!--profile icon on the left side of the navbar-->
+      <div class="profile">
+        <a class="cart" href="#"><ion-icon name="cart-outline"></ion-icon></a>
+        <a class="user" href="#"><ion-icon name="person-outline"></ion-icon></a>
+      </div>
+    </div>
+
+     <!--main highlight-->
+     <div class="main-highlight">
+      <!--title section and arrow-->
+      <div class="main-header">
+       <h2 class="main-title">Recomendations</h2>
+       <div class="main-arrow">
+        <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+        <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+
+       </div>
+      </div>
+      
+ <!--highlight menu-->
+ <div class="highlight-wrapper">
+  <div class="highlight-card">
+    <img class="highlight-img" src="fresh salad.jpeg" alt="">
+    <div class="highlight-desc">
+      <h4>Fresh Salad</h4>
+      <p>$42.50</p>
+
+    </div>
+  </div>
+  <div class="highlight-card">
+    <img class="highlight-img" src="cafe latte.jpeg" alt="">
+    <div class="highlight-desc">
+      <h4>Cafe Latte</h4>
+      <p>$20.50</p>
+
+ </div>
+ </div>
+
+ <div class="highlight-card">
+  <img class="highlight-img" src="premium steak.jpeg" alt="">
+  <div class="highlight-desc">
+    <h4>Premium Steak</h4>
+    <p>$42.50</p>
+
+
+    </div>
+    </div>
+    
+      <div class="highlight-card">
+        <img class="highlight-img" src="big burger.jpeg" alt="">
+        <div class="highlight-desc">
+          <h4>Big burgger</h4>
+          <p>$42.50</p>
+          </div>
+        </div>
+      </div>
+   </div>
+         <!--main menus/orders-->
+         <div class="main-menu">
+          <!--filter section-->
+          <div class="main-filter">
+            <div>
+              <h2 class="main-title">Menu<br>Category</h2>
+              <div class="main-arrow">
+                <ion-icon class="back-menus" name="chevron-back-circle-outline"></ion-icon>
+                <ion-icon class="next-menus" name="chevron-forward-circle-outline"></ion-icon>
+
+              </div>
+            </div>
+            <div class="filter-wrapper">
+              <div class="filter-card">
+                <div class="filter-icon">
+                  
+                  <ion-icon name="restaurant-outline"></ion-icon>
+
+                </div>
+                <p>All Menus</p>
+
+              </div>
+
+              <div class="filter-card">
+                <div class="filter-icon">
+                  
+                  <ion-icon name="fast-food-outline"></ion-icon>
+
+                </div>
+                <p>Burgers</p>
+
+              </div>
+
+              <div class="filter-card">
+                <div class="filter-icon">
+                  
+                  <ion-icon name="pizza-outline"></ion-icon>
+
+                </div>
+                <p>Pizza</p>
+
+              </div>
+
+              <div class="filter-card">
+                <div class="filter-icon">
+                  
+                  <ion-icon name="wine-outline"></ion-icon>
+
+                </div>
+                <p>Wine</p>
+
+              </div>
+
+              <div class="filter-card">
+                <div class="filter-icon">
+                  
+                  <ion-icon name="ice-cream-outline"></ion-icon>
+
+                </div>
+                <p>Ice-Cream</p>
+
+              </div>
+
+              <div class="filter-card">
+                <div class="filter-icon">
+                  
+                  <ion-icon name="cafe-outline"></ion-icon>
+
+                </div>
+                <p>Coffee</p>
+
+              </div>
+
+              <div class="filter-card">
+                <div class="filter-icon">
+                  
+                  <ion-icon name="fish-outline"></ion-icon>
+
+                </div>
+                <p>Seafood</p>
+
+              </div>
+              <div class="filter-card">
+                <div class="filter-icon">
+                  
+                  <ion-icon name="nutrition-outline"></ion-icon>
+
+                </div>
+                <p>Healthy</p>
+
+              </div>
+
+
+
+
+            </div>
+
+          </div>
+          <hr class="divder">
+          <!--list food menus-->
+          <div class="main-detail">
+            <h2 class="main-title">Choose Order</h2>
+            <div class="detailed-wrapper">
+              <div class="detailed-card">
+                <img class="detailed-img" src="seafood(shrimp).jpeg" alt="">
+                <div class="detailed-desc">
+
+                  <div class="detailed-name">
+                    <h2>Shrimp Soup</h2>
+                    <p class="detailed-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="price">$152.00</p>
+  
+                  </div>
+                  <ion-icon class="detailed-favourites" name="bookmark-outline"></ion-icon>
+  
+
+                </div>
+                
+              </div>
+
+              <div class="detailed-card">
+                <img class="detailed-img" src="pizzaimage.jpg" alt="">
+                <div class="detailed-desc">
+
+                  <div class="detailed-name">
+                    <h2>Pizza</h2>
+                    <p class="detailed-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="price">$52.00</p>
+  
+                  </div>
+                  <ion-icon class="detailed-favourites" name="bookmark-outline"></ion-icon>
+  
+
+                </div>
+                
+              </div>
+
+              <div class="detailed-card">
+                <img class="detailed-img" src="wineimage.jpg" alt="">
+                <div class="detailed-desc">
+
+                  <div class="detailed-name">
+                    <h2>Wine</h2>
+                    <p class="detailed-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="price">$15.90</p>
+  
+                  </div>
+                  <ion-icon class="detailed-favourites" name="bookmark-outline"></ion-icon>
+  
+
+                </div>
+                
+              </div>
+
+              <div class="detailed-card">
+                <img class="detailed-img" src="Burgerimage.jpeg" alt="">
+                <div class="detailed-desc">
+
+                  <div class="detailed-name">
+                    <h2>Burger</h2>
+                    <p class="detailed-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="price">$35.90</p>
+  
+                  </div>
+                  <ion-icon class="detailed-favourites" name="bookmark-outline"></ion-icon>
+  
+
+                </div>
+                
+              </div>
+              <div class="detailed-card">
+                <img class="detailed-img" src="coffeeimage.jpg" alt="">
+                <div class="detailed-desc">
+
+                  <div class="detailed-name">
+                    <h2>Hot cafe latte</h2>
+                    <p class="detailed-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="price">$20.00</p>
+  
+                  </div>
+                  <ion-icon class="detailed-favourites" name="bookmark-outline"></ion-icon>
+  
+
+                </div>
+                
+              </div>
+              <div class="detailed-card">
+                <img class="detailed-img" src="fresh salad.jpeg" alt="">
+                <div class="detailed-desc">
+
+                  <div class="detailed-name">
+                    <h2>Fresh Salad</h2>
+                    <p class="detailed-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="price">$42.50</p>
+  
+                  </div>
+                  <ion-icon class="detailed-favourites" name="bookmark-outline"></ion-icon>
+  
+
+                </div>
+                
+              </div>
+              
+
+            </div>
+
+          </div>
+
+         </div>
+    </div>
+   <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+  <!--ordering javascript-->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="FoodTime.js"></script>
+</html>
